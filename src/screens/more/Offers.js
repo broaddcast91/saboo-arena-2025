@@ -25,7 +25,7 @@ const offer_products = [
   // },
   {
     name: "Swift 2024",
-    price: "76,100",
+    price: "63,000",
     desc:"on 2024 model (with old Alto & Wagonr exchange) ",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/Swift+Tile+Image.webp",
     explore: "/maruti-swift-car-on-road-price-in-hyderabad",
@@ -55,13 +55,13 @@ const offer_products = [
   // },
   {
     name: "S-Presso",
-    price: "73,000",
+    price: "66,100",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-spresso.webp",
     explore: "/maruti-s-presso-on-road-price-in-hyderabad",
   },
   {
     name: "WagonR ",
-    price: "68,000",
+    price: "71,000",
    desc:"(with old Alto & Wagonr exchange)",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-wagonr.webp",
     explore: "/maruti-wagon-r-on-road-price-in-hyderabad",
@@ -69,7 +69,7 @@ const offer_products = [
 
   {
     name: "Celerio",
-    price: "73,000",
+    price: "71,100",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-celerio.webp",
     explore: "/the-all-new-celerio",
   },
@@ -90,7 +90,7 @@ const offer_products = [
 
   {
     name: "EECO",
-    price: "33,000",
+    price: "41,100",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-eeco.webp",
     explore: "/maruti-eeco-on-road-price-in-hyderabad",
   },
