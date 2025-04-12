@@ -551,7 +551,7 @@ const CarsSlider = ({ scrollToCarEnquiry }) => {
           <p className="text-lg font-light text-blue-800">
             Ex-Showroom Price
             <span className="ml-3 text-xl text-red-600">
-              ₹&nbsp;8.69 - 13.03 Lakhs*
+              ₹&nbsp;8.84 - 13.13 Lakhs*
             </span>
           </p>
           <div className="flex flex-wrap items-center mt-5 mb-2 text-blue-800">

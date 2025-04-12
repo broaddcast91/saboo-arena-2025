@@ -146,21 +146,21 @@ const brezzaVariants = [
     title: 'LXi',
     transmission: 'manual',
     mileage: '17.03',
-    price: '₹ 8,34,000 Lakh',
+    price: '₹ 8,69,000 Lakh',
   },
   {
     id: 2,
     title: 'VXi',
     transmission: 'manual',
     mileage: '17.03',
-    price: '₹ 9,69,500 Lakh',
+    price: '₹ 9,75,000 Lakh',
   },
   {
     id: 3,
     title: ' VXI AT',
     transmission: 'automatic',
     mileage: '17.03',
-    price: '₹ 11,09,500 Lakh',
+    price: '₹ 11,15,000 Lakh',
   },
   {
     id: 4,
@@ -174,7 +174,7 @@ const brezzaVariants = [
     title: 'ZXi (D)',
     transmission: 'manual',
     mileage: '17.03',
-    price: '₹ 11,30,500 Lakh',
+    price: '₹ 12,82,000 Lakh',
   },
 
   {

@@ -352,7 +352,7 @@ export const products = [
   {
     id: 2,
     name: "Alto K10",
-    price: "3.99 L",
+    price: "4.09 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/alto-k10-logo-bw.webp",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-k10.webp",
     brouchure:
@@ -387,7 +387,7 @@ export const products = [
   {
     id: 5,
     name: "Dzire",
-    price: "6.79 L",
+    price: "6.84 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/Dzire.jpg",
     img: "https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/blue/suzuki_swift_ext_360_oragne_v-1_6.webp",
     // img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-dzire.webp",
@@ -422,7 +422,7 @@ export const products = [
   {
     id: 7,
     name: "Wagon R",
-    price: "5.54 L",
+    price: "5.64 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/wagonr.png",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-wagonr.webp",
     brouchure:
@@ -440,7 +440,7 @@ export const products = [
   {
     id: 8,
     name: "Ertiga",
-    price: "8.69 L",
+    price: "8.84 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/Ertiga.jpg",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-ertiga.webp",
     brouchure:
@@ -457,7 +457,7 @@ export const products = [
   {
     id: 9,
     name: "Celerio",
-    price: "5.36 L",
+    price: "5.64 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/celerio.png",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-celerio.webp",
     brouchure:
@@ -474,7 +474,7 @@ export const products = [
   {
     id: 10,
     name: "Eeco",
-    price: "5.27 L",
+    price: "5.41 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/eeco.png",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-eeco.webp",
     brouchure:

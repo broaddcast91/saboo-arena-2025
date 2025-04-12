@@ -182,14 +182,14 @@ const spressoVariants = [
     title: 'VXI (O) AGS 1L',
     transmission: 'manual',
     mileage: '21.7',
-    price: '₹ 5,66,500 Lakh',
+    price: '₹ 5,71,500 Lakh',
   },
   {
     id: 8,
     title: 'VXI+ (O) AGS 1L',
     transmission: 'manual',
     mileage: '21.7',
-    price: '₹ 5,95,500 Lakh',
+    price: '₹ 6,00,500 Lakh',
   },
   {
     id: 9,

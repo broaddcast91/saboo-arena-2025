@@ -103,7 +103,7 @@ const ertigaVariants = [
     title: 'lxi (o)',
     transmission: 'manual',
     mileage: '20.51 ',
-    price: '₹ 8,69,000 Lakh',
+    price: '₹ 8,84,000 Lakh',
   },
   // {
   //   id: 2,
@@ -117,7 +117,7 @@ const ertigaVariants = [
     title: 'vxi (o)',
     transmission: 'manual',
     mileage: '20.30 ',
-    price: '₹ 9,83,000 Lakh',
+    price: '₹ 9,93,000 Lakh',
   },
 
   {
@@ -125,35 +125,35 @@ const ertigaVariants = [
     title: 'zxi (o)',
     transmission: 'manual',
     mileage: '20.30 ',
-    price: '₹ 10,93,000 Lakh',
+    price: '₹ 11,03,000 Lakh',
   },
   {
     id: 6,
     title: 'zxi+',
     transmission: 'manual',
     mileage: '20.30 ',
-    price: '₹ 11,63,000 Lakh',
+    price: '₹ 11,73,000 Lakh',
   },
   {
     id: 7,
     title: 'vxi at',
     transmission: 'automatic',
     mileage: '20.30 ',
-    price: '₹ 11,23,000 Lakh',
+    price: '₹ 11,33,000 Lakh',
   },
   {
     id: 8,
     title: 'zxi at',
     transmission: 'automatic',
     mileage: '20.30 ',
-    price: '₹ 12,33,000 Lakh',
+    price: '₹ 12,43,000 Lakh',
   },
   {
     id: 9,
     title: 'zxi+ at',
     transmission: 'automatic',
     mileage: '20.51 ',
-    price: '₹ 13,03,000 Lakh',
+    price: '₹ 13,13,000 Lakh',
   },
   // {
   //   id: 10,
@@ -167,7 +167,7 @@ const ertigaVariants = [
     title: 'vxi (o) cng',
     transmission: 'manual',
     mileage: '26.11 ',
-    price: '₹ 10,78,000 Lakh',
+    price: '₹ 10,88,000 Lakh',
   },
   // {
   //   id: 12,
@@ -181,7 +181,7 @@ const ertigaVariants = [
     title: 'zxi (o) cng',
     transmission: 'manual',
     mileage: '26.11 ',
-    price: '₹ 11,88,000 Lakh',
+    price: '₹ 11,98,000 Lakh',
   },
   // {
   //   id: 14,
@@ -195,7 +195,7 @@ const ertigaVariants = [
     title: 'tour m (o) (p)',
     transmission: 'manual',
     mileage: '18.04 ',
-    price: '₹ 9,80,000 Lakh',
+    price: '₹ 9,90,000 Lakh',
   },
   // {
   //   id: 15,
@@ -209,7 +209,7 @@ const ertigaVariants = [
     title: 'tour m (o) cng',
     transmission: 'manual',
     mileage: '26.08 ',
-    price: '₹ 10,75,000 Lakh',
+    price: '₹ 10,85,000 Lakh',
   },
   {
     id: 17,

@@ -126,21 +126,21 @@ const dzireVariants = [
     title: 'lxi',
     transmission: 'manual',
 
-    price: '₹ 6,79,000  Lakh',
+    price: '₹ 6,84,000 Lakh',
   },
   {
     id: 2,
     title: 'vxi ',
     transmission: 'manual',
 
-    price: '₹ 7,79,000 Lakh',
+    price: '₹ 7,84,000 Lakh',
   },
   {
     id: 3,
     title: 'zxi ',
     transmission: 'manual',
 
-    price: '₹ 8,89,000 Lakh',
+    price: '₹ 8,94,000 Lakh',
   },
   {
     id: 4,
@@ -154,36 +154,36 @@ const dzireVariants = [
     title: 'vxi ags ',
     transmission: 'automatic',
 
-    price: '₹ 8,24,000 Lakh',
+    price: '₹ 8,34,000 Lakh',
   },
   {
     id: 6,
     title: 'zxi ags ',
     transmission: 'automatic',
 
-    price: '₹ 9,34,000 Lakh',
+    price: '₹ 9,44,000 Lakh',
   },
   {
     id: 7,
     title: 'zxi+ ags',
     transmission: 'automatic',
 
-    price: '₹ 10,14,000 Lakh',
+    price: '₹ 10,19,000 Lakh',
   },
-  // {
-  //   id: 8,
-  //   title: 'vxi CNG 1.2l',
-  //   transmission: 'manual',
+  {
+    id: 8,
+    title: 'vxi CNG ',
+    transmission: 'manual',
 
-  //   price: '₹ 8,44,250 Lakh',
-  // },
-  // {
-  //   id: 9,
-  //   title: 'zxi CNG 1.2l',
-  //   transmission: 'manual',
+    price: '₹ 8,79,000 Lakh',
+  },
+  {
+    id: 9,
+    title: 'zxi CNG ',
+    transmission: 'manual',
 
-  //   price: '₹ 9,12,250 Lakh',
-  // },
+    price: '₹ 9,89,000 Lakh',
+  },
   // {
   //   id: 10,
   //   title: 'tour s std (o)',

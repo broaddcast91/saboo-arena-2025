@@ -252,21 +252,21 @@ const swiftVariants = [
     title: "lxi",
     transmission: "manual",
 
-    price: "₹ 6,49,001 Lakh",
+    price: "₹ 6,49,000 Lakh",
   },
   {
     id: 2,
     title: "vxi",
     transmission: "manual",
 
-    price: "₹ 7,29,501 Lakh",
+    price: "₹ 7,29,500 Lakh",
   },
   {
     id: 3,
     title: "vxi ags",
     transmission: "automatic",
 
-    price: "₹ 7,74,500 Lakh",
+    price: "₹ 7,79,500 Lakh",
   },
   {
     id: 4,
@@ -280,7 +280,7 @@ const swiftVariants = [
     title: "vxi (o) AGS",
     transmission: "Automatic",
 
-    price: "₹ 8,01,501 Lakh",
+    price: "₹ 8,06,500 Lakh",
   },
   {
     id: 6,
@@ -294,34 +294,34 @@ const swiftVariants = [
     title: "zxi ags",
     transmission: "automatic",
 
-    price: "₹ 8,74,500 Lakh",
+    price: "₹ 8,79,500 Lakh",
   },
   {
     id: 8,
     title: "zxi+",
     transmission: "manual",
 
-    price: "₹ 8,99,501 Lakh",
+    price: "₹ 8,99,500 Lakh",
   },
   {
     id: 10,
     title: "zxi+ DT",
     transmission: "manual",
-    price: "₹ 9,14,499 Lakh",
+    price: "₹ 9,14,500 Lakh",
   },
   {
     id: 9,
     title: "zxi+ ags",
     transmission: "automatic",
 
-    price: "₹ 9,44,500 Lakh",
+    price: "₹ 9,49,500 Lakh",
   },
   {
     id: 11,
     title: "zxi+ ags (D)",
     transmission: "automatic",
 
-    price: "₹ 9,59,500 Lakh",
+    price: "₹ 9,64,500 Lakh",
   },
   {
     id: 12,
@@ -342,7 +342,7 @@ const swiftVariants = [
     title: "SWIFT ZXI CNG",
     transmission: "automatic",
 
-    price: "₹ 9,19,499 Lakh",
+    price: "₹ 9,19,500 Lakh",
   },
 ];
 
