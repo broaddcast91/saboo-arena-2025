@@ -98,7 +98,9 @@ function Celerio() {
 
       <div className="mt-8">
         <img
-          src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-new-celerio/New_Celerio_Product_Brand_Brochure.webp"
+       
+      // src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-new-celerio/New_Celerio_Product_Brand_Brochure.webp"
+       src ="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-new-celerio/New_Celerio_Product_Brand_Brochure.webp"
           alt="brochure"
           className="w-full"
         />

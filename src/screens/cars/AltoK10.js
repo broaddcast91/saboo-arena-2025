@@ -101,7 +101,8 @@ function AltoK10() {
 
       <div>
         <img
-          src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/alto-k10-prospectus.webp"
+          //src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/alto-k10-prospectus.webp"
+          src ="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/alto-k10-prospectus.webp"
           alt="brochure"
           className="w-full"
         />
