@@ -24,15 +24,15 @@ const offer_products = [
   //   explore: '/maruti-alto-800-on-road-price-in-hyderabad',
   // },
   {
-    name: "Swift 2024",
-    price: "63,000",
+    name: "Swift ",
+    price: "73,000",
    // desc:"on 2024 model (with old Alto & Wagonr exchange) ",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/Swift+Tile+Image.webp",
     explore: "/maruti-swift-car-on-road-price-in-hyderabad",
   },
   {
-    name: "Brezza 2024",
-    price: "48,000",
+    name: "Brezza ",
+    price: "90,600",
     desc:' (with old Swift & Dzire exchange)',
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-brezza.webp",
     // img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/offers/maruti-suzuki-brezza.webp",
@@ -41,7 +41,7 @@ const offer_products = [
   {
     name: "Alto K10",
     
-    price: "73,000",
+    price: "71,100",
     logo: "Alto k10",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-k10.webp",
     explore: "/maruti-alto-800-on-road-price-in-hyderabad",
@@ -61,7 +61,7 @@ const offer_products = [
   },
   {
     name: "WagonR ",
-    price: "71,000",
+    price: "71,100",
   // desc:"(with old Alto & Wagonr exchange)",
     img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-wagonr.webp",
     explore: "/maruti-wagon-r-on-road-price-in-hyderabad",
