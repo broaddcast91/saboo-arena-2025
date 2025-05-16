@@ -60,7 +60,7 @@ function TourS() {
       </Helmet>
       <Header />
       <img
-        src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/dzire-banner.jpg"
+       src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/dzire-banner.webp"
         className="w-full max-w-full lg:mt-16"
         alt="1"
         id="overview"
@@ -109,14 +109,13 @@ function TourS() {
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <div className="col-span-2">
             <img
+         
               src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Celerio_performance_txt.png"
               className="object-scale-down"
               alt="1"
             />
             <p className="p-2">
-              Tour S is driven by performance. Every time you get behind the
-              wheel, you drive into a completely new world where elegance meets
-              efficiency in a seamless partnership.
+              Power through every journey with the 1.2L Next-Gen Z-Series Engine. Built for efficiency and performance, it delivers ample torque and a refined driving experience—perfect for city commutes.
             </p>
             <br></br>
 
@@ -127,31 +126,26 @@ function TourS() {
               The smooth acceleration, low emission and superb fuel efficiency
               makes it truly special.
             </p>
-            <p>
-              {" "}
-              <img
-                src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/safety-txt.png"
-                className="object-scale-down p-5"
-                alt="1"
-              />
-            </p>
-            <p className="p-2">
+         
+            {/* <p className="p-2">
               Safety is of paramount importance. That’s why the Driver Airbag
               you can be assured about the well-being of you and your loved
               ones.
-            </p>
-            <ul className="p-2 list-disc">
+            </p> */}
+            {/* <ul className="p-2 list-disc">
               <li>ABD with EBD</li>
               <li>Driver Airbag</li>
-            </ul>
+            </ul> */}
           </div>
           <img
-            src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Dzire_car.png"
+           src ='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Dzire-image.webp'
+          //  src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Dzire_car.png"
             className="w-full max-w-full"
             alt="1"
           />
         </div>
       </div>
+      <SafetySection/>
       {/* <TourSCarEnquiry /> */}
       <CarEnquiryDown title="TOUR-S" carName="TOUR-S" id="enquiry" />
       <div className="container mx-auto" id="specs">
@@ -975,5 +969,82 @@ const Accordian = () => {
     </>
   );
 };
+
+
+
+
+
+
+
+const safetyFeatures = [
+  {
+    title: '6 Airbags',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/tour-s-airbag.png',
+    content: 'Provides comprehensive protection in case of collision, ensuring safety for all passengers.',
+  },
+  {
+    title: 'Hill Hold Assist',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Tour+S_320x160_Hill+hold.webp',
+    content: 'Prevents the vehicle from rolling back on slopes by maintaining brake pressure.',
+  },
+  {
+    title: 'Electronic Stability Program (ESP)',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/esp-banner.webp',
+    content: 'Helps maintain control during skids by automatically applying brakes to individual wheels.',
+  },
+];
+
+export function SafetySection() {
+  const [activeFeature, setActiveFeature] = useState(0);
+
+  return (
+    <div className="flex flex-col p-6 bg-white md:flex-row">
+      {/* Left: Background Image */}
+      <div
+        className="h-64 bg-center bg-cover shadow md:w-1/2 md:h-auto rounded-xl"
+        style={{
+          backgroundImage: `url(${safetyFeatures[activeFeature].image})`,
+        }}
+      ></div>
+
+      {/* Right: Text Content */}
+      <div className="mt-6 md:w-1/2 md:mt-0 md:ml-10">
+          <p>
+            
+              <img
+                src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/safety-txt.png"
+                className="object-scale-down p-5"
+                alt="1"
+              />
+            </p>
+        <p className="mb-4 text-gray-700">
+          Success starts with safety. The All-New Tour S offers enhanced protection with 6 airbags, Hill Hold Assist, and
+          Electronic Stability Programme, ensuring a smooth and secure drive.
+        </p>
+
+        <ul className="space-y-3">
+          {safetyFeatures.map((feature, index) => (
+            <li key={index}>
+              <button
+                className={`w-full text-left text-lg font-semibold transition ${
+                  activeFeature === index ? 'text-blue-700' : 'text-black'
+                }`}
+                onClick={() => setActiveFeature(index)}
+              >
+                {feature.title}
+              </button>
+              {activeFeature === index && (
+                <div className="p-3 mt-2 text-gray-600 bg-gray-100 rounded-md shadow-inner">
+                  {feature.content}
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 
 export default TourS;

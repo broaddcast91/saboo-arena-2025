@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "saboomaruti"
+    "default": "saboo-maruti-e9d7b",
+    "build": "saboo-arena-789ed"
   },
   "targets": {},
   "etags": {}

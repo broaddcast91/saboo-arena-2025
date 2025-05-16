@@ -60,7 +60,9 @@ function DzireCNG() {
       </Helmet>
       <Header />
       <img
-        src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/CNG/dzire/Dzire_cng+web+banner.webp"
+  src={require("../../assets/banners/Dzire-cng-banner.webp")} 
+
+       // src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/CNG/dzire/Dzire_cng+web+banner.webp"
         className="w-full max-w-full lg:mt-16"
         alt="1"
       />
@@ -74,30 +76,18 @@ function DzireCNG() {
             </p>
 
             <p className="text-s">
-              Move up to a new world of green and efficient mobility with Maruti
-              Suzuki Dzire S-CNG that is a reflection of your lifestyle with a
-              touch of class in it. The Dzire now comes equipped with
-              Factory-fitted S-CNG technology and offers superior performance,
-              enhanced safety, and impressive fuel efficiency.
+            
+PREMIUM PERFORMANCE, S-CNG EFFICIENCY
             </p>
             <br></br>
             <p className="text-s">
-              S-CNG technology is available in the VXI and ZXI variants of
-              Dzire. The factory-fitted CNG kit is integrated into the mainframe
-              of the car on the factory floor by expert technicians. It has a
-              leak-proof and corrosion-resistant design thanks to the use of
-              stainless steel pipes. Equipped with an Intelligent Injection
-              System and dual interdependent ECUs, the new Dzire S-CNG delivers
-              consistent performance across different terrains and driving
-              conditions. It also comes with features like CNG fuel level
-              indicator, micro-switch for safety while CNG fuel filling is in
-              process and NGV receptacle for quicker CNG refueling. Switch to
-              cleaner mobility with the Maruti Suzuki Dzire S-CNG.
+             The Dazzling-New Dzire with S-CNG offers more than just efficiency, it keeps the essence of what makes the Dzire truly special. With an exceptional fuel economy of km/kg, it maintains the refined performance and seamless drive the Dzire is renowned for. No compromises, just the perfect blend of performance and efficiency.
             </p>
             <br></br>
             <div className="flex flex-row">
               <div className="basis-1/1">
                 <img
+               
                   src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/CNG/dzire/factory.webp"
                   className="w-full max-w-full pr-3"
                   alt="1"
@@ -120,7 +110,10 @@ function DzireCNG() {
             </div>
           </div>
           <div className="object-contain object-left pt-5 h-70 w-100 pl-9">
-            <img className="object-left" src={Dzire1} alt="vehicle_banner" />{" "}
+          <img className="object-left "
+          //  src={Dzire1}
+          src = 'https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/red.webp'
+            alt="vehicle_banner" />{" "}
           </div>
         </div>
       </div>
@@ -319,7 +312,7 @@ function DzireCNG() {
 //                 <small className='text-red-500'>
 //                   Phone number must be 10 digits
 //                 </small>
-//               ) : !pattern.test(phone) && phone.length === 10 ? (
+//               ) : !pattern.test(phone) && phone.length === 10 ? (  
 //                 <small className='text-red-500'>Phone number is invalid</small>
 //               ) : (
 //                 ''
@@ -456,565 +449,297 @@ function Accordian() {
                 <p className="flex-1 px-5 py-3 border">ZXI CNG</p>
               </div>
 
-              <Disclosure>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
-                      <span className="text-base uppercase">Exterior</span>
-                      <ChevronDownIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-black font-bold`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="pb-2 text-sm text-gray-500">
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Rear Combination LED lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          High Mounted LED Stop Lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Body Coloured Door Handles
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Body Coloured ORVMs
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Side Turn Indicators on ORVMs
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Wheels</p>
-                        <p className="flex-1 px-5 py-3 border">Steel</p>
-                        <p className="flex-1 px-5 py-3 border">Alloy</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Wheel Cover</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Door Outer - Weather Strip
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">Black</p>
-                        <p className="flex-1 px-5 py-3 border">Chrome</p>
-                      </div>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
-                      <span className="text-base uppercase">INTERIOR</span>
-                      <ChevronDownIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-black font-bold`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="pb-2 text-sm text-gray-500">
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Leather Wrapped Steering Wheel
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Modern wood accent with Natural gloss finish
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Dual - Tone Interiors
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Multi - Information Display
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Outside Temperature Display
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Low - Fuel Warning Lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Urban Sating Chrome Accents on Console, Gear Lever &
-                          Steering Wheel
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Door Lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Tachometer</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Door Arm rest with Fabric
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Co. Driver Side Sunvisor with Vanity Mirror
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Driver Side Sunvisor with Vanity Miror
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
-                      <span className="text-base uppercase">
-                        COMFORT AND CONVENIENCE
-                      </span>
-                      <ChevronDownIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-black font-bold`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="pb-2 text-sm text-gray-500">
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Engine Push Start-Stop Button with Smart Key
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Rear AC Vent</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Rear Seat Center Armrest with Cup Holder
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Remote Keyless entry system
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Manual Air Conditioner with Heater
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Automatic Climate Control
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Pollen Filter
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Accessory Socket
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Rear Accessory Socket Mobile Pocket
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Central Locking
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Electromagnetic Trunk Opening
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Gear Shift Indicator
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Power Windows (Front + Rear)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Electrically Adjustable ORVMs
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Electrically Foldable ORVMS
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Driver Side Auto Down Power Window
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Driver Side Auto Up Power Window
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Tilt Steering
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Height Adjustable Driver Seat
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Adjustable Front Sear Headrests
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Luggage room Lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Bottle Holde on all Doors
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
-                      <span className="text-base uppercase">
-                        SAFETY AND SECURITY{" "}
-                      </span>
-                      <ChevronDownIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-black font-bold`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="pb-2 text-sm text-gray-500">
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Suzuki HEARTECT Body
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          ABS with EBD and Brake Assist
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Dual Airbags</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Reverse Parking Sensors
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Anti - Theft Security System
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Fog Lamps
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Rear Defogger
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          ISOFix Child Sear Anchorages
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Seat Belt with PreTensioner
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Pinch Gaurd Power Window (Driver)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Engine Immobilizer
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Speed - Sensitive Door Locking
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Night and Day Adjustable IRVM
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">^Speed Alert</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Driver & Co - Driver Seat Belt Reminder
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Key - Left Warning Lamp & Buzzer
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Front Fog Lamp Garnish (Chrome)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Door Ajar Warning Lamp
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
+<Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">Exterior</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["Rear Combination LED lamp", "✔", "✔"],
+          ["High Mounted LED Stop Lamp", "✔", "✔"],
+          ["Body Coloured Door Handles", "✔", "✔"],
+          ["Body Coloured ORVMs", "✔", "✔"],
+          ["Side Turn Indicators on ORVMs", "✔", "✔"],
+          ["Wheels", "Steel", "Alloy"],
+          ["Wheel Cover", "✔", "-"],
+          ["Door Outer - Weather Strip", "Black", "Chrome"],
+          ["R15 Alloys (Painted)", "-", "✔"],
+          ["R14 Steel Wheels", "✔", "-"],
+          ["Full Wheel Covers", "✔", "-"],
+          ["Sleek Line LED DRLs", "✔", "✔"],
+          ["LED Crystal Vision Headlamps", "-", "✔"],
+          ["FocusBeam Projector Headlamps", "-", "✔"],
+          ["Chrome Finish - Front Grille", "-", "✔"],
+          ["Chrome Finish - Trunk Lid Garnish", "-", "✔"],
+          ["3D Trinity LED Rear Lamps Signature", "-", "✔"],
+          ["LED High Mount Stop Lamp", "✔", "✔"],
+          ["Shark Fin Antenna", "-", "✔"],
+          ["Aero Boot Lip Spoiler", "-", "✔"],
+          ["Belt Line Garnish", "Black", "Chrome"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div
+            key={idx}
+            className="flex items-center justify-between text-base"
+          >
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
 
               <Disclosure>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
-                      <span className="text-base uppercase">
-                        AUDIO & ENTERTAINMENT
-                      </span>
-                      <ChevronDownIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-5 w-5 text-black font-bold`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="pb-2 text-sm text-gray-500">
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          All New Feather Touch Audio System
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Smartplay Studio System with Navigation and Voice
-                          Command (Android Auto and Apple CarPlay enabled)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          AHA Platform (Through Smartplay Studio App)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Audio Player with USB, CD, AUX and FM/AM with
-                          Bluetooth Connectivity
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Steering Mounted Audio & Calling Controls
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Audio Remote Control
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">
-                          ✔ (Through Smartplay Studio app)
-                        </p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">
-                          Door Speakers (4 Speakers)
-                        </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Tweeters</p>
-                        <p className="flex-1 px-5 py-3 border"> - </p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                      <div className="flex items-center justify-between text-base">
-                        <p className="flex-1 px-5 py-3 border ">Antenna</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                        <p className="flex-1 px-5 py-3 border">✔</p>
-                      </div>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">INTERIOR</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["Leather Wrapped Steering Wheel", "-", "✔"],
+          ["Modern wood accent with Natural gloss finish", "✔", "✔"],
+          ["Dual - Tone Interiors", "✔", "✔"],
+          ["Multi - Information Display", "-", "✔"],
+          ["Outside Temperature Display", "-", "✔"],
+          ["Low - Fuel Warning Lamp", "✔", "✔"],
+          ["Urban Satin Chrome Accents on Console, Gear Lever & Steering Wheel", "✔", "✔"],
+          ["Front Door Lamp", "✔", "✔"],
+          ["Tachometer", "✔", "✔"],
+          ["Front Door Armrest with Fabric", "✔", "✔"],
+          ["Co. Driver Side Sunvisor with Vanity Mirror", "✔", "✔"],
+          ["Driver Side Sunvisor with Ticket Holder", "✔", "✔"],
+          ["Urbane Satin Accents on Console, Door Trims", "✔", "✔"],
+          ["Chrome Finish - AC Vents", "-", "✔"],
+          ["Chrome Finish - Inside Door Handles", "-", "✔"],
+          ["Chrome Accent On Parking Brake Lever Tip And Gear Shift Knob", "-", "✔"],
+          ["IP Ornament Finish", "Satin Silver", "Satin Silver + Wood"],
+          ["Front Dome Lamp", "✔", "✔"],
+          ["Centre Room Lamp", "✔", "✔"],
+          ["Speedometer with Tachometer", "✔", "✔"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div
+            key={idx}
+            className="flex items-center justify-between text-base"
+          >
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
+
+         <Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">SAFETY & SECURITY</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["Reverse Parking Camera", "-", "✔"],
+          ["Tyre Pressure Monitoring System (TPMS)", "-", "✔"],
+          ["Day/Night Adjustable Inside Rear View Mirror", "✔", "✔"],
+          ["Speed-Sensitive Auto Door Locking", "✔", "✔"],
+          ["Rear Defogger", "✔", "✔"],
+          ["Engine Immobilizers", "✔", "✔"],
+          ["6 Airbags (Front, Side and Curtain)", "-", "✔"],
+          ["High-Speed Warning Alert", "✔", "✔"],
+          ["3-Point Seat Belts for all Seats", "✔", "✔"],
+          ["Seat Belt Reminder Lamp & Buzzer (all occupants)", "-", "✔"],
+          ["Suzuki HEARTECT Body", "✔", "✔"],
+          ["Electronic Stability Program (ESP)", "-", "✔"],
+          ["Hill Hold Assist", "-", "✔"],
+          ["ABS with EBD", "✔", "✔"],
+          ["Reverse Parking Sensors", "✔", "✔"],
+          ["ISOFix Child Seat Anchorages", "✔", "✔"],
+          ["Front Seat Belt with Pre-Tensioner & Force Limiter", "✔", "✔"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div
+            key={idx}
+            className="flex items-center justify-between text-base"
+          >
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
+
+<Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">INFOTAINMENT</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["SmartPlay Pro with 17.78 cm Touchscreen", "✔", "✔"],
+          ["Android Auto and Apple CarPlay", "Wireless", "Wireless"],
+          ["Remote Control App for Infotainment", "✔", "✔"],
+          ["Steering Mounted Audio & Calling Controls", "✔", "✔"],
+          ["Over The Air Updates (OTA) using Smartphone", "✔", "✔"],
+          [
+            'Onboard Voice Assistant (Wake-up Through "Hi Suzuki" with Barge-in Feature)',
+            "✔",
+            "✔",
+          ],
+          ["USB & Bluetooth Connectivity", "✔", "✔"],
+          ["Speakers (4 nos.)", "✔", "✔"],
+          ["Tweeters (2 nos.)", "_", "✔"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div
+            key={idx}
+            className="flex items-center justify-between text-base"
+          >
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
+
+
+
+            <Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">COMFORT & CONVENIENCE</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["Wireless Charger", "_", "✔"],
+          ["Engine Push Start-Stop Button with Smart Key", "_", "✔"],
+          ["Auto headlamps with Follow Me Home & Lead Me to Vehicle", "_", "✔"],
+          ["Key-fob operated Trunk opening", "_", "✔"],
+          ["Luggage Room Lamp", "", ""],
+          ["Rear AC Vent", "✔", "✔"],
+          ["Rear Seat Center Armrest with Cup Holder", "✔", "✔"],
+          ["Front USB (Type A)", "✔", "✔"],
+          ["Rear Fast Charging USB (Type A and C) with phone pocket", "✔", "✔"],
+          ["Electrically Adjustable Outside Rear View Mirrors", "✔", "✔"],
+          ["Electrically Foldable Outside Rear View Mirrors", "✔", "✔"],
+          ["Height Adjustable Driver Seat", "✔", "✔"],
+          ["Power Windows (Front + Rear)", "✔", "✔"],
+          ["Gear Shift Indicator", "✔", "✔"],
+          ["Electromagnetic trunk opening", "✔", "✔"],
+          ["Adjustable Front Seat Headrests", "✔", "✔"],
+          ["Auto Up Down and Pinch Guard Power Window (Driver)", "✔", "✔"],
+          ["Driver Side Footrest", "✔", "✔"],
+          ["Front Accessory Socket", "✔", "✔"],
+          ["Remote Keyless Entry System", "✔", "✔"],
+          ["Central Locking", "✔", "✔"],
+          ["Power & Tilt Steering", "✔", "✔"],
+          ["Bottle Holder on All Doors", "✔", "✔"],
+          ["Digital Air Conditioner with Panel Illumination", "Manual", "Auto"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div
+            key={idx}
+            className="flex items-center justify-between text-base"
+          >
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
+<Disclosure>
+  {({ open }) => (
+    <>
+      <Disclosure.Button className="flex justify-between w-full px-5 py-3 text-sm font-medium text-left border hover:bg-gray-200 focus:outline-none">
+        <span className="text-base uppercase">SUZUKI CONNECT</span>
+        <ChevronDownIcon
+          className={`${
+            open ? "rotate-180 transform" : ""
+          } h-5 w-5 text-black font-bold`}
+        />
+      </Disclosure.Button>
+      <Disclosure.Panel className="pb-2 text-sm text-gray-500">
+        {[
+          ["Emergency Alerts", "_", "✔"],
+          ["Breakdown Notification", "_", "✔"],
+          ["Stolen Vehicle Notification & Tracking", "_", "✔"],
+          ["Tow-away and Tracking", "_", "✔"],
+          ["Geo-fence", "_", "✔"],
+          ["Time fence", "_", "✔"],
+          ["Valet Alert", "_", "✔"],
+          ["Trip Summary", "_", "✔"],
+          ["Driving Behaviour", "_", "✔"],
+          ["Share Trip History", "_", "✔"],
+          ["Area Guidance", "_", "✔"],
+          ["Vehicle Location Sharing", "_", "✔"],
+          ["Overspeeding", "_", "✔"],
+          ["Seatbelt", "_", "✔"],
+          ["AC Idling", "_", "✔"],
+          ["Trip (Start & End)", "_", "✔"],
+          ["Low Fuel", "_", "✔"],
+          ["Low Range", "_", "✔"],
+          ["Dashboard View", "_", "✔"],
+          ["Door Lock/Cancel Lock", "_", "✔"],
+          ["Hazard Light On/Off", "", "✔"],
+          ["Headlight Off", "_", "✔"],
+          ["Alarm", "_", "✔"],
+          ["Immobiliser Request", "_", "✔"],
+          ["Battery Health", "_", "✔"],
+          ["Smartwatch Connectivity", "_", "✔"],
+          ["Alexa Skill Connectivity", "_", "✔"],
+        ].map(([feature, variant1, variant2], idx) => (
+          <div key={idx} className="flex items-center justify-between text-base">
+            <p className="flex-1 px-5 py-3 border">{feature}</p>
+            <p className="flex-1 px-5 py-3 border">{variant1}</p>
+            <p className="flex-1 px-5 py-3 border">{variant2}</p>
+          </div>
+        ))}
+      </Disclosure.Panel>
+    </>
+  )}
+</Disclosure>
+
+
             </Tab.Panel>
 
             {/* interior */}
@@ -1057,10 +782,10 @@ function Accordian() {
                           Overall Height
                         </p>
                         <p className="flex-1 px-5 py-3 border">
-                          1515 mm (Unladen)
+                          1525 mm (Unladen)
                         </p>
                         <p className="flex-1 px-5 py-3 border">
-                          1515 mm (Unladen)
+                          1525 mm (Unladen)
                         </p>
                       </div>
                       <div className="flex items-center justify-between text-base">
@@ -1262,8 +987,8 @@ function Accordian() {
                         <p className="flex-1 px-5 py-3 border ">
                           Tyre Size (Steel)
                         </p>
-                        <p className="flex-1 px-5 py-3 border">165/65 R14</p>
-                        <p className="flex-1 px-5 py-3 border">165/65 R14</p>
+                        <p className="flex-1 px-5 py-3 border">165/80 R14</p>
+                        <p className="flex-1 px-5 py-3 border">165/80 R14</p>
                       </div>
                       <div className="flex items-center justify-between text-base">
                         <p className="flex-1 px-5 py-3 border ">

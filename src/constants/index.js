@@ -26,12 +26,16 @@ export const sliders = [
   //  alt: "Maruti Suzuki Driving School October Dussehra Diwali Offers Saboo RKS Motor Learn Driving Driving School",
   //  link: "/maruti-suzuki-driving-school",
   // },
-  {
-    img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
-    alt: "Holi web Banner Arena.webp",
-    link: "/maruti-suzuki-car-offers-page",
-  },
-
+  // {
+  //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+  //   alt: "Holi web Banner Arena.webp",
+  //   link: "/maruti-suzuki-car-offers-page",
+  // },
+  // {
+  //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+  //   alt: "Holi web Banner Arena.webp",
+  //   link: "/maruti-suzuki-car-offers-page",
+  // },
   // {
   //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_New_Year_Offers_2025_Sankranti_offers_are_live_at_Saboo_RKS_Motor.webp"),
   //   alt: "2025 new year republic offer",
@@ -113,11 +117,11 @@ export const sliders = [
 ];
 
 export const mobileSliders = [
-  {
-    img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
-    alt: "Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers",
-    link: "/maruti-suzuki-car-offers-page",
-  },
+  // {
+  //   img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+  //   alt: "Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers",
+  //   link: "/maruti-suzuki-car-offers-page",
+  // },
 
 
 
@@ -204,10 +208,14 @@ export const mobileSliders = [
 ];
 
 export const offersSliders = [
-  {
-    img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
-    alt: "Holi web Banner Arena.webp",
+    {
+    img: require("../assets/banners/arena-blog-popup-banner.cd48ae712a6e99c6065c.webp"),
+    alt: "summer",
   },
+  // {
+  //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+  //   alt: "summer",
+  // },
   //{
   //  img: require("../assets/banners/vehicles/banners-2024/Website_Maruti_Suzuki_Arena_Year_End_Offers_Remember_To_Remember_Offers_Saboo_RKS_Motor.webp"),
   // alt: "Website_Maruti_Suzuki_Arena_Year_End_Offers_Remember_To_Remember_Offers_Saboo_RKS_Motor",
@@ -255,10 +263,14 @@ export const offersSliders = [
 ];
 
 export const mobileOffersSliders = [
-  {
-     img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+   {
+     img: require("../assets/banners/Website_Mobile_Maruti_Suzuki_Summer_Offers_Saboo_RKS_Motor_April_Offers.webp"),
     alt: "Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers",
   },
+  // {
+  //    img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
+  //   alt: "Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers",
+  // },
   // {
   //   img: require("../assets/banners/WM__Maruti_Suzuki_Arena_New_Year_Offers_2025_Sankranti_offers_are_live_at_Saboo_RKS_Motor.webp"),
   //   alt: "2025 new year republic offer",
@@ -553,8 +565,9 @@ export const cngProducts = [
     name: "Dzire",
     price: "8.44 L",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/Dzire.jpg",
+    img :"https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/red.webp",
 
-    img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-dzire.webp",
+   // img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-dzire.webp",
     brouchure:
       "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Saboo_RKS_Dzire_Brochure.pdf",
     explore: "/maruti-swift-dzire-cng-on-road-price-in-hyderabad",
@@ -635,7 +648,7 @@ export const tourProducts = [
     petrol: "19.95 km/l",
     logo: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/tour/logos/Tour_S.webp",
 
-    img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/cng-cars/Tour-S.png",
+    img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/Dzire-image+(1).webp",
     brouchure:
       "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Saboo_RKS_Dzire_Brochure.pdf",
     explore: "/maruti-dzire-tour-s-on-road-price-in-hyderabad",
